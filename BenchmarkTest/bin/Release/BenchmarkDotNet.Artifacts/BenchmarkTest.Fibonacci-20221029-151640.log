@@ -1,0 +1,515 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 4 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+BuildScript: /Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/bin/Release/4260c500-4b17-439f-8129-4f68ba5c0cae.sh
+// ***** Done, took 00:00:05 (5.25 sec)   *****
+// Found 4 benchmarks:
+//   Fibonacci.BruteForceResult: DefaultJob
+//   Fibonacci.MemoResult: DefaultJob
+//   Fibonacci.MemoTwoResult: DefaultJob
+//   Fibonacci.LogNResult: DefaultJob
+
+// **************************
+// Benchmark: Fibonacci.BruteForceResult: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: mono --nollvm "/Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/bin/Release/4260c500-4b17-439f-8129-4f68ba5c0cae" --benchmarkName BenchmarkTest.Fibonacci.BruteForceResult --job Default --benchmarkId 0 in 
+Failed to set up high priority. Make sure you have the right permissions. Message: Cannot find the specified file
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128
+// GC=Concurrent Workstation
+// HardwareIntrinsics= VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 401000.00 ns, 401.0000 us/op
+WorkloadJitting  1: 1 op, 33488320900.00 ns, 33.4883 s/op
+
+WorkloadWarmup   1: 1 op, 33472259400.00 ns, 33.4723 s/op
+WorkloadWarmup   2: 1 op, 33484938100.00 ns, 33.4849 s/op
+WorkloadWarmup   3: 1 op, 33483335700.00 ns, 33.4833 s/op
+WorkloadWarmup   4: 1 op, 33487475300.00 ns, 33.4875 s/op
+WorkloadWarmup   5: 1 op, 33483650700.00 ns, 33.4837 s/op
+WorkloadWarmup   6: 1 op, 33458439700.00 ns, 33.4584 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 33548664600.00 ns, 33.5487 s/op
+WorkloadActual   2: 1 op, 33579085400.00 ns, 33.5791 s/op
+WorkloadActual   3: 1 op, 33591026900.00 ns, 33.5910 s/op
+WorkloadActual   4: 1 op, 33568239100.00 ns, 33.5682 s/op
+WorkloadActual   5: 1 op, 33906767700.00 ns, 33.9068 s/op
+WorkloadActual   6: 1 op, 34059407200.00 ns, 34.0594 s/op
+WorkloadActual   7: 1 op, 33959305900.00 ns, 33.9593 s/op
+WorkloadActual   8: 1 op, 33899212200.00 ns, 33.8992 s/op
+WorkloadActual   9: 1 op, 33641092400.00 ns, 33.6411 s/op
+WorkloadActual  10: 1 op, 33901570700.00 ns, 33.9016 s/op
+WorkloadActual  11: 1 op, 33838251300.00 ns, 33.8383 s/op
+WorkloadActual  12: 1 op, 34044763500.00 ns, 34.0448 s/op
+WorkloadActual  13: 1 op, 33767322600.00 ns, 33.7673 s/op
+WorkloadActual  14: 1 op, 33874743300.00 ns, 33.8747 s/op
+WorkloadActual  15: 1 op, 33992669700.00 ns, 33.9927 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 33548664600.00 ns, 33.5487 s/op
+WorkloadResult   2: 1 op, 33579085400.00 ns, 33.5791 s/op
+WorkloadResult   3: 1 op, 33591026900.00 ns, 33.5910 s/op
+WorkloadResult   4: 1 op, 33568239100.00 ns, 33.5682 s/op
+WorkloadResult   5: 1 op, 33906767700.00 ns, 33.9068 s/op
+WorkloadResult   6: 1 op, 34059407200.00 ns, 34.0594 s/op
+WorkloadResult   7: 1 op, 33959305900.00 ns, 33.9593 s/op
+WorkloadResult   8: 1 op, 33899212200.00 ns, 33.8992 s/op
+WorkloadResult   9: 1 op, 33641092400.00 ns, 33.6411 s/op
+WorkloadResult  10: 1 op, 33901570700.00 ns, 33.9016 s/op
+WorkloadResult  11: 1 op, 33838251300.00 ns, 33.8383 s/op
+WorkloadResult  12: 1 op, 34044763500.00 ns, 34.0448 s/op
+WorkloadResult  13: 1 op, 33767322600.00 ns, 33.7673 s/op
+WorkloadResult  14: 1 op, 33874743300.00 ns, 33.8747 s/op
+WorkloadResult  15: 1 op, 33992669700.00 ns, 33.9927 s/op
+GC:  0 0 0 0 1
+Threading:  0 0 1
+
+// AfterAll
+// Benchmark Process 2450 has exited with code 0.
+
+Mean = 33.811 s, StdErr = 0.047 s (0.14%), N = 15, StdDev = 0.182 s
+Min = 33.549 s, Q1 = 33.616 s, Median = 33.875 s, Q3 = 33.933 s, Max = 34.059 s
+IQR = 0.317 s, LowerFence = 33.141 s, UpperFence = 34.409 s
+ConfidenceInterval = [33.617 s; 34.006 s] (CI 99.9%), Margin = 0.194 s (0.57% of Mean)
+Skewness = -0.24, Kurtosis = 1.4, MValue = 2
+
+// ** Remained 3 (75,0%) benchmark(s) to run. Estimated finish 2022-10-29 16:08 (0h 38m from now) **
+// **************************
+// Benchmark: Fibonacci.MemoResult: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: mono --nollvm "/Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/bin/Release/4260c500-4b17-439f-8129-4f68ba5c0cae" --benchmarkName BenchmarkTest.Fibonacci.MemoResult --job Default --benchmarkId 1 in 
+Failed to set up high priority. Make sure you have the right permissions. Message: Cannot find the specified file
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128
+// GC=Concurrent Workstation
+// HardwareIntrinsics= VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 403600.00 ns, 403.6000 us/op
+WorkloadJitting  1: 1 op, 2390800.00 ns, 2.3908 ms/op
+
+OverheadJitting  2: 16 op, 276400.00 ns, 17.2750 us/op
+WorkloadJitting  2: 16 op, 475100.00 ns, 29.6938 us/op
+
+WorkloadPilot    1: 16 op, 50800.00 ns, 3.1750 us/op
+WorkloadPilot    2: 32 op, 31200.00 ns, 975.0000 ns/op
+WorkloadPilot    3: 64 op, 57900.00 ns, 904.6875 ns/op
+WorkloadPilot    4: 128 op, 111300.00 ns, 869.5313 ns/op
+WorkloadPilot    5: 256 op, 230900.00 ns, 901.9531 ns/op
+WorkloadPilot    6: 512 op, 527400.00 ns, 1.0301 us/op
+WorkloadPilot    7: 1024 op, 1030200.00 ns, 1.0061 us/op
+WorkloadPilot    8: 2048 op, 1951600.00 ns, 952.9297 ns/op
+WorkloadPilot    9: 4096 op, 3965900.00 ns, 968.2373 ns/op
+WorkloadPilot   10: 8192 op, 7328400.00 ns, 894.5801 ns/op
+WorkloadPilot   11: 16384 op, 14631700.00 ns, 893.0481 ns/op
+WorkloadPilot   12: 32768 op, 28719400.00 ns, 876.4465 ns/op
+WorkloadPilot   13: 65536 op, 56946200.00 ns, 868.9301 ns/op
+WorkloadPilot   14: 131072 op, 115371900.00 ns, 880.2177 ns/op
+WorkloadPilot   15: 262144 op, 232775400.00 ns, 887.9677 ns/op
+WorkloadPilot   16: 524288 op, 458820300.00 ns, 875.1303 ns/op
+WorkloadPilot   17: 1048576 op, 908059400.00 ns, 865.9929 ns/op
+
+OverheadWarmup   1: 1048576 op, 2391900.00 ns, 2.2811 ns/op
+OverheadWarmup   2: 1048576 op, 2330800.00 ns, 2.2228 ns/op
+OverheadWarmup   3: 1048576 op, 2321000.00 ns, 2.2135 ns/op
+OverheadWarmup   4: 1048576 op, 2354200.00 ns, 2.2451 ns/op
+OverheadWarmup   5: 1048576 op, 2330000.00 ns, 2.2221 ns/op
+OverheadWarmup   6: 1048576 op, 2411200.00 ns, 2.2995 ns/op
+OverheadWarmup   7: 1048576 op, 2344700.00 ns, 2.2361 ns/op
+
+OverheadActual   1: 1048576 op, 2325800.00 ns, 2.2181 ns/op
+OverheadActual   2: 1048576 op, 2334700.00 ns, 2.2265 ns/op
+OverheadActual   3: 1048576 op, 2410700.00 ns, 2.2990 ns/op
+OverheadActual   4: 1048576 op, 2344500.00 ns, 2.2359 ns/op
+OverheadActual   5: 1048576 op, 2339700.00 ns, 2.2313 ns/op
+OverheadActual   6: 1048576 op, 2385600.00 ns, 2.2751 ns/op
+OverheadActual   7: 1048576 op, 2345200.00 ns, 2.2366 ns/op
+OverheadActual   8: 1048576 op, 2385400.00 ns, 2.2749 ns/op
+OverheadActual   9: 1048576 op, 2333900.00 ns, 2.2258 ns/op
+OverheadActual  10: 1048576 op, 2336300.00 ns, 2.2281 ns/op
+OverheadActual  11: 1048576 op, 2336300.00 ns, 2.2281 ns/op
+OverheadActual  12: 1048576 op, 2381600.00 ns, 2.2713 ns/op
+OverheadActual  13: 1048576 op, 2389700.00 ns, 2.2790 ns/op
+OverheadActual  14: 1048576 op, 2323400.00 ns, 2.2158 ns/op
+OverheadActual  15: 1048576 op, 2325000.00 ns, 2.2173 ns/op
+
+WorkloadWarmup   1: 1048576 op, 932239600.00 ns, 889.0530 ns/op
+WorkloadWarmup   2: 1048576 op, 921310400.00 ns, 878.6301 ns/op
+WorkloadWarmup   3: 1048576 op, 916275900.00 ns, 873.8288 ns/op
+WorkloadWarmup   4: 1048576 op, 909673000.00 ns, 867.5318 ns/op
+WorkloadWarmup   5: 1048576 op, 915812700.00 ns, 873.3871 ns/op
+WorkloadWarmup   6: 1048576 op, 924739500.00 ns, 881.9003 ns/op
+WorkloadWarmup   7: 1048576 op, 911949800.00 ns, 869.7031 ns/op
+WorkloadWarmup   8: 1048576 op, 998248000.00 ns, 952.0035 ns/op
+WorkloadWarmup   9: 1048576 op, 931995900.00 ns, 888.8206 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 1048576 op, 912470100.00 ns, 870.1993 ns/op
+WorkloadActual   2: 1048576 op, 914653300.00 ns, 872.2814 ns/op
+WorkloadActual   3: 1048576 op, 907142700.00 ns, 865.1187 ns/op
+WorkloadActual   4: 1048576 op, 909423600.00 ns, 867.2939 ns/op
+WorkloadActual   5: 1048576 op, 908961000.00 ns, 866.8528 ns/op
+WorkloadActual   6: 1048576 op, 908125800.00 ns, 866.0563 ns/op
+WorkloadActual   7: 1048576 op, 902430800.00 ns, 860.6251 ns/op
+WorkloadActual   8: 1048576 op, 903336400.00 ns, 861.4887 ns/op
+WorkloadActual   9: 1048576 op, 905469800.00 ns, 863.5233 ns/op
+WorkloadActual  10: 1048576 op, 906633500.00 ns, 864.6331 ns/op
+WorkloadActual  11: 1048576 op, 902760000.00 ns, 860.9390 ns/op
+WorkloadActual  12: 1048576 op, 904270100.00 ns, 862.3792 ns/op
+WorkloadActual  13: 1048576 op, 898717000.00 ns, 857.0833 ns/op
+WorkloadActual  14: 1048576 op, 906776300.00 ns, 864.7693 ns/op
+WorkloadActual  15: 1048576 op, 912936500.00 ns, 870.6441 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 1048576 op, 910130400.00 ns, 867.9680 ns/op
+WorkloadResult   2: 1048576 op, 912313600.00 ns, 870.0500 ns/op
+WorkloadResult   3: 1048576 op, 904803000.00 ns, 862.8874 ns/op
+WorkloadResult   4: 1048576 op, 907083900.00 ns, 865.0626 ns/op
+WorkloadResult   5: 1048576 op, 906621300.00 ns, 864.6214 ns/op
+WorkloadResult   6: 1048576 op, 905786100.00 ns, 863.8249 ns/op
+WorkloadResult   7: 1048576 op, 900091100.00 ns, 858.3938 ns/op
+WorkloadResult   8: 1048576 op, 900996700.00 ns, 859.2574 ns/op
+WorkloadResult   9: 1048576 op, 903130100.00 ns, 861.2920 ns/op
+WorkloadResult  10: 1048576 op, 904293800.00 ns, 862.4018 ns/op
+WorkloadResult  11: 1048576 op, 900420300.00 ns, 858.7077 ns/op
+WorkloadResult  12: 1048576 op, 901930400.00 ns, 860.1479 ns/op
+WorkloadResult  13: 1048576 op, 896377300.00 ns, 854.8520 ns/op
+WorkloadResult  14: 1048576 op, 904436600.00 ns, 862.5380 ns/op
+WorkloadResult  15: 1048576 op, 910596800.00 ns, 868.4128 ns/op
+GC:  205 0 0 0 1048576
+Threading:  0 0 1048576
+
+// AfterAll
+// Benchmark Process 2540 has exited with code 0.
+
+Mean = 862.695 ns, StdErr = 1.072 ns (0.12%), N = 15, StdDev = 4.153 ns
+Min = 854.852 ns, Q1 = 859.703 ns, Median = 862.538 ns, Q3 = 864.842 ns, Max = 870.050 ns
+IQR = 5.139 ns, LowerFence = 851.994 ns, UpperFence = 872.551 ns
+ConfidenceInterval = [858.254 ns; 867.135 ns] (CI 99.9%), Margin = 4.440 ns (0.51% of Mean)
+Skewness = 0.06, Kurtosis = 2.1, MValue = 2
+
+// ** Remained 2 (50,0%) benchmark(s) to run. Estimated finish 2022-10-29 15:43 (0h 13m from now) **
+// **************************
+// Benchmark: Fibonacci.MemoTwoResult: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: mono --nollvm "/Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/bin/Release/4260c500-4b17-439f-8129-4f68ba5c0cae" --benchmarkName BenchmarkTest.Fibonacci.MemoTwoResult --job Default --benchmarkId 2 in 
+Failed to set up high priority. Make sure you have the right permissions. Message: Cannot find the specified file
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128
+// GC=Concurrent Workstation
+// HardwareIntrinsics= VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 404600.00 ns, 404.6000 us/op
+WorkloadJitting  1: 1 op, 1596100.00 ns, 1.5961 ms/op
+
+OverheadJitting  2: 16 op, 175100.00 ns, 10.9438 us/op
+WorkloadJitting  2: 16 op, 428500.00 ns, 26.7813 us/op
+
+WorkloadPilot    1: 16 op, 49500.00 ns, 3.0938 us/op
+WorkloadPilot    2: 32 op, 28100.00 ns, 878.1250 ns/op
+WorkloadPilot    3: 64 op, 53700.00 ns, 839.0625 ns/op
+WorkloadPilot    4: 128 op, 101200.00 ns, 790.6250 ns/op
+WorkloadPilot    5: 256 op, 197900.00 ns, 773.0469 ns/op
+WorkloadPilot    6: 512 op, 409300.00 ns, 799.4141 ns/op
+WorkloadPilot    7: 1024 op, 799100.00 ns, 780.3711 ns/op
+WorkloadPilot    8: 2048 op, 1638500.00 ns, 800.0488 ns/op
+WorkloadPilot    9: 4096 op, 3158700.00 ns, 771.1670 ns/op
+WorkloadPilot   10: 8192 op, 6271100.00 ns, 765.5151 ns/op
+WorkloadPilot   11: 16384 op, 12705200.00 ns, 775.4639 ns/op
+WorkloadPilot   12: 32768 op, 25365900.00 ns, 774.1058 ns/op
+WorkloadPilot   13: 65536 op, 50656100.00 ns, 772.9507 ns/op
+WorkloadPilot   14: 131072 op, 100870000.00 ns, 769.5770 ns/op
+WorkloadPilot   15: 262144 op, 201234600.00 ns, 767.6491 ns/op
+WorkloadPilot   16: 524288 op, 401895300.00 ns, 766.5545 ns/op
+WorkloadPilot   17: 1048576 op, 806822100.00 ns, 769.4455 ns/op
+
+OverheadWarmup   1: 1048576 op, 6300700.00 ns, 6.0088 ns/op
+OverheadWarmup   2: 1048576 op, 6308100.00 ns, 6.0159 ns/op
+OverheadWarmup   3: 1048576 op, 6326200.00 ns, 6.0331 ns/op
+OverheadWarmup   4: 1048576 op, 6234800.00 ns, 5.9460 ns/op
+OverheadWarmup   5: 1048576 op, 6374700.00 ns, 6.0794 ns/op
+OverheadWarmup   6: 1048576 op, 6290500.00 ns, 5.9991 ns/op
+
+OverheadActual   1: 1048576 op, 6248700.00 ns, 5.9592 ns/op
+OverheadActual   2: 1048576 op, 6299500.00 ns, 6.0077 ns/op
+OverheadActual   3: 1048576 op, 6357500.00 ns, 6.0630 ns/op
+OverheadActual   4: 1048576 op, 6369100.00 ns, 6.0740 ns/op
+OverheadActual   5: 1048576 op, 6282100.00 ns, 5.9911 ns/op
+OverheadActual   6: 1048576 op, 6308800.00 ns, 6.0165 ns/op
+OverheadActual   7: 1048576 op, 6281900.00 ns, 5.9909 ns/op
+OverheadActual   8: 1048576 op, 6340700.00 ns, 6.0470 ns/op
+OverheadActual   9: 1048576 op, 6284900.00 ns, 5.9937 ns/op
+OverheadActual  10: 1048576 op, 6316600.00 ns, 6.0240 ns/op
+OverheadActual  11: 1048576 op, 6262900.00 ns, 5.9728 ns/op
+OverheadActual  12: 1048576 op, 6282600.00 ns, 5.9916 ns/op
+OverheadActual  13: 1048576 op, 6305000.00 ns, 6.0129 ns/op
+OverheadActual  14: 1048576 op, 6235100.00 ns, 5.9463 ns/op
+OverheadActual  15: 1048576 op, 6278600.00 ns, 5.9877 ns/op
+
+WorkloadWarmup   1: 1048576 op, 810828400.00 ns, 773.2662 ns/op
+WorkloadWarmup   2: 1048576 op, 806971700.00 ns, 769.5882 ns/op
+WorkloadWarmup   3: 1048576 op, 811871800.00 ns, 774.2613 ns/op
+WorkloadWarmup   4: 1048576 op, 806390000.00 ns, 769.0334 ns/op
+WorkloadWarmup   5: 1048576 op, 803286600.00 ns, 766.0738 ns/op
+WorkloadWarmup   6: 1048576 op, 805287200.00 ns, 767.9817 ns/op
+WorkloadWarmup   7: 1048576 op, 807363100.00 ns, 769.9615 ns/op
+WorkloadWarmup   8: 1048576 op, 812147600.00 ns, 774.5243 ns/op
+WorkloadWarmup   9: 1048576 op, 806732300.00 ns, 769.3599 ns/op
+
+// BeforeActualRun
+WorkloadActual   1: 1048576 op, 805509000.00 ns, 768.1932 ns/op
+WorkloadActual   2: 1048576 op, 807525400.00 ns, 770.1162 ns/op
+WorkloadActual   3: 1048576 op, 815622200.00 ns, 777.8379 ns/op
+WorkloadActual   4: 1048576 op, 816057300.00 ns, 778.2529 ns/op
+WorkloadActual   5: 1048576 op, 813667200.00 ns, 775.9735 ns/op
+WorkloadActual   6: 1048576 op, 809078100.00 ns, 771.5970 ns/op
+WorkloadActual   7: 1048576 op, 811289700.00 ns, 773.7062 ns/op
+WorkloadActual   8: 1048576 op, 810577700.00 ns, 773.0271 ns/op
+WorkloadActual   9: 1048576 op, 809147100.00 ns, 771.6628 ns/op
+WorkloadActual  10: 1048576 op, 811248500.00 ns, 773.6669 ns/op
+WorkloadActual  11: 1048576 op, 808829800.00 ns, 771.3602 ns/op
+WorkloadActual  12: 1048576 op, 805035000.00 ns, 767.7412 ns/op
+WorkloadActual  13: 1048576 op, 807967000.00 ns, 770.5374 ns/op
+WorkloadActual  14: 1048576 op, 810225200.00 ns, 772.6910 ns/op
+WorkloadActual  15: 1048576 op, 809277700.00 ns, 771.7874 ns/op
+
+// AfterActualRun
+WorkloadResult   1: 1048576 op, 799224100.00 ns, 762.1995 ns/op
+WorkloadResult   2: 1048576 op, 801240500.00 ns, 764.1225 ns/op
+WorkloadResult   3: 1048576 op, 807382300.00 ns, 769.9798 ns/op
+WorkloadResult   4: 1048576 op, 802793200.00 ns, 765.6033 ns/op
+WorkloadResult   5: 1048576 op, 805004800.00 ns, 767.7124 ns/op
+WorkloadResult   6: 1048576 op, 804292800.00 ns, 767.0334 ns/op
+WorkloadResult   7: 1048576 op, 802862200.00 ns, 765.6691 ns/op
+WorkloadResult   8: 1048576 op, 804963600.00 ns, 767.6731 ns/op
+WorkloadResult   9: 1048576 op, 802544900.00 ns, 765.3665 ns/op
+WorkloadResult  10: 1048576 op, 798750100.00 ns, 761.7475 ns/op
+WorkloadResult  11: 1048576 op, 801682100.00 ns, 764.5436 ns/op
+WorkloadResult  12: 1048576 op, 803940300.00 ns, 766.6972 ns/op
+WorkloadResult  13: 1048576 op, 802992800.00 ns, 765.7936 ns/op
+GC:  0 0 0 0 1048576
+Threading:  0 0 1048576
+
+// AfterAll
+// Benchmark Process 2544 has exited with code 0.
+
+Mean = 765.703 ns, StdErr = 0.625 ns (0.08%), N = 13, StdDev = 2.252 ns
+Min = 761.747 ns, Q1 = 764.544 ns, Median = 765.669 ns, Q3 = 767.033 ns, Max = 769.980 ns
+IQR = 2.490 ns, LowerFence = 760.809 ns, UpperFence = 770.768 ns
+ConfidenceInterval = [763.006 ns; 768.400 ns] (CI 99.9%), Margin = 2.697 ns (0.35% of Mean)
+Skewness = -0.09, Kurtosis = 2.31, MValue = 2
+
+// ** Remained 1 (25,0%) benchmark(s) to run. Estimated finish 2022-10-29 15:35 (0h 4m from now) **
+// **************************
+// Benchmark: Fibonacci.LogNResult: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: mono --nollvm "/Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/bin/Release/4260c500-4b17-439f-8129-4f68ba5c0cae" --benchmarkName BenchmarkTest.Fibonacci.LogNResult --job Default --benchmarkId 3 in 
+Failed to set up high priority. Make sure you have the right permissions. Message: Cannot find the specified file
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128
+// GC=Concurrent Workstation
+// HardwareIntrinsics= VectorSize=128
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 409600.00 ns, 409.6000 us/op
+WorkloadJitting  1: 1 op, 5462400.00 ns, 5.4624 ms/op
+
+OverheadJitting  2: 16 op, 217900.00 ns, 13.6188 us/op
+WorkloadJitting  2: 16 op, 492000.00 ns, 30.7500 us/op
+
+WorkloadPilot    1: 16 op, 65800.00 ns, 4.1125 us/op
+WorkloadPilot    2: 32 op, 64900.00 ns, 2.0281 us/op
+WorkloadPilot    3: 64 op, 126100.00 ns, 1.9703 us/op
+WorkloadPilot    4: 128 op, 247000.00 ns, 1.9297 us/op
+WorkloadPilot    5: 256 op, 527600.00 ns, 2.0609 us/op
+WorkloadPilot    6: 512 op, 1107900.00 ns, 2.1639 us/op
+WorkloadPilot    7: 1024 op, 2147600.00 ns, 2.0973 us/op
+WorkloadPilot    8: 2048 op, 4327700.00 ns, 2.1131 us/op
+WorkloadPilot    9: 4096 op, 8262300.00 ns, 2.0172 us/op
+WorkloadPilot   10: 8192 op, 15794400.00 ns, 1.9280 us/op
+WorkloadPilot   11: 16384 op, 31638400.00 ns, 1.9311 us/op
+WorkloadPilot   12: 32768 op, 63280200.00 ns, 1.9312 us/op
+WorkloadPilot   13: 65536 op, 126444000.00 ns, 1.9294 us/op
+WorkloadPilot   14: 131072 op, 257086100.00 ns, 1.9614 us/op
+WorkloadPilot   15: 262144 op, 505678300.00 ns, 1.9290 us/op
+
+OverheadWarmup   1: 262144 op, 626400.00 ns, 2.3895 ns/op
+OverheadWarmup   2: 262144 op, 584800.00 ns, 2.2308 ns/op
+OverheadWarmup   3: 262144 op, 615600.00 ns, 2.3483 ns/op
+OverheadWarmup   4: 262144 op, 587600.00 ns, 2.2415 ns/op
+OverheadWarmup   5: 262144 op, 586100.00 ns, 2.2358 ns/op
+OverheadWarmup   6: 262144 op, 598900.00 ns, 2.2846 ns/op
+OverheadWarmup   7: 262144 op, 598100.00 ns, 2.2816 ns/op
+
+OverheadActual   1: 262144 op, 629000.00 ns, 2.3994 ns/op
+OverheadActual   2: 262144 op, 583800.00 ns, 2.2270 ns/op
+OverheadActual   3: 262144 op, 657400.00 ns, 2.5078 ns/op
+OverheadActual   4: 262144 op, 592200.00 ns, 2.2591 ns/op
+OverheadActual   5: 262144 op, 582000.00 ns, 2.2202 ns/op
+OverheadActual   6: 262144 op, 582100.00 ns, 2.2205 ns/op
+OverheadActual   7: 262144 op, 585300.00 ns, 2.2327 ns/op
+OverheadActual   8: 262144 op, 602700.00 ns, 2.2991 ns/op
+OverheadActual   9: 262144 op, 588500.00 ns, 2.2449 ns/op
+OverheadActual  10: 262144 op, 582900.00 ns, 2.2236 ns/op
+OverheadActual  11: 262144 op, 607500.00 ns, 2.3174 ns/op
+OverheadActual  12: 262144 op, 601700.00 ns, 2.2953 ns/op
+OverheadActual  13: 262144 op, 582200.00 ns, 2.2209 ns/op
+OverheadActual  14: 262144 op, 581100.00 ns, 2.2167 ns/op
+OverheadActual  15: 262144 op, 613800.00 ns, 2.3415 ns/op
+
+WorkloadWarmup   1: 262144 op, 515579100.00 ns, 1.9668 us/op
+WorkloadWarmup   2: 262144 op, 507810500.00 ns, 1.9371 us/op
+WorkloadWarmup   3: 262144 op, 512819100.00 ns, 1.9562 us/op
+WorkloadWarmup   4: 262144 op, 505382800.00 ns, 1.9279 us/op
+WorkloadWarmup   5: 262144 op, 512830200.00 ns, 1.9563 us/op
+WorkloadWarmup   6: 262144 op, 507004600.00 ns, 1.9341 us/op
+
+// BeforeActualRun
+WorkloadActual   1: 262144 op, 509402100.00 ns, 1.9432 us/op
+WorkloadActual   2: 262144 op, 505717000.00 ns, 1.9292 us/op
+WorkloadActual   3: 262144 op, 509656100.00 ns, 1.9442 us/op
+WorkloadActual   4: 262144 op, 505356800.00 ns, 1.9278 us/op
+WorkloadActual   5: 262144 op, 510613500.00 ns, 1.9478 us/op
+WorkloadActual   6: 262144 op, 504005200.00 ns, 1.9226 us/op
+WorkloadActual   7: 262144 op, 512215400.00 ns, 1.9539 us/op
+WorkloadActual   8: 262144 op, 503633200.00 ns, 1.9212 us/op
+WorkloadActual   9: 262144 op, 511330800.00 ns, 1.9506 us/op
+WorkloadActual  10: 262144 op, 503366600.00 ns, 1.9202 us/op
+WorkloadActual  11: 262144 op, 509613100.00 ns, 1.9440 us/op
+WorkloadActual  12: 262144 op, 511612600.00 ns, 1.9516 us/op
+WorkloadActual  13: 262144 op, 517131900.00 ns, 1.9727 us/op
+WorkloadActual  14: 262144 op, 545967200.00 ns, 2.0827 us/op
+WorkloadActual  15: 262144 op, 512342800.00 ns, 1.9544 us/op
+
+// AfterActualRun
+WorkloadResult   1: 262144 op, 508813600.00 ns, 1.9410 us/op
+WorkloadResult   2: 262144 op, 505128500.00 ns, 1.9269 us/op
+WorkloadResult   3: 262144 op, 509067600.00 ns, 1.9419 us/op
+WorkloadResult   4: 262144 op, 504768300.00 ns, 1.9255 us/op
+WorkloadResult   5: 262144 op, 510025000.00 ns, 1.9456 us/op
+WorkloadResult   6: 262144 op, 503416700.00 ns, 1.9204 us/op
+WorkloadResult   7: 262144 op, 511626900.00 ns, 1.9517 us/op
+WorkloadResult   8: 262144 op, 503044700.00 ns, 1.9190 us/op
+WorkloadResult   9: 262144 op, 510742300.00 ns, 1.9483 us/op
+WorkloadResult  10: 262144 op, 502778100.00 ns, 1.9179 us/op
+WorkloadResult  11: 262144 op, 509024600.00 ns, 1.9418 us/op
+WorkloadResult  12: 262144 op, 511024100.00 ns, 1.9494 us/op
+WorkloadResult  13: 262144 op, 516543400.00 ns, 1.9705 us/op
+WorkloadResult  14: 262144 op, 511754300.00 ns, 1.9522 us/op
+GC:  89 0 0 0 262144
+Threading:  0 0 262144
+
+// AfterAll
+// Benchmark Process 2546 has exited with code 0.
+
+Mean = 1.939 μs, StdErr = 0.004 μs (0.21%), N = 14, StdDev = 0.015 μs
+Min = 1.918 μs, Q1 = 1.926 μs, Median = 1.942 μs, Q3 = 1.949 μs, Max = 1.970 μs
+IQR = 0.023 μs, LowerFence = 1.891 μs, UpperFence = 1.984 μs
+ConfidenceInterval = [1.922 μs; 1.957 μs] (CI 99.9%), Margin = 0.017 μs (0.90% of Mean)
+Skewness = 0.11, Kurtosis = 1.98, MValue = 2
+
+// ** Remained 0 (0,0%) benchmark(s) to run. Estimated finish 2022-10-29 15:30 (0h 0m from now) **
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts/results/BenchmarkTest.Fibonacci-report.csv
+  BenchmarkDotNet.Artifacts/results/BenchmarkTest.Fibonacci-report-github.md
+  BenchmarkDotNet.Artifacts/results/BenchmarkTest.Fibonacci-report.html
+
+// * Detailed results *
+Fibonacci.BruteForceResult: DefaultJob
+Runtime = Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128; GC = Concurrent Workstation
+Mean = 33.811 s, StdErr = 0.047 s (0.14%), N = 15, StdDev = 0.182 s
+Min = 33.549 s, Q1 = 33.616 s, Median = 33.875 s, Q3 = 33.933 s, Max = 34.059 s
+IQR = 0.317 s, LowerFence = 33.141 s, UpperFence = 34.409 s
+ConfidenceInterval = [33.617 s; 34.006 s] (CI 99.9%), Margin = 0.194 s (0.57% of Mean)
+Skewness = -0.24, Kurtosis = 1.4, MValue = 2
+-------------------- Histogram --------------------
+[33.452 s ; 34.156 s) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+Fibonacci.MemoResult: DefaultJob
+Runtime = Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128; GC = Concurrent Workstation
+Mean = 862.695 ns, StdErr = 1.072 ns (0.12%), N = 15, StdDev = 4.153 ns
+Min = 854.852 ns, Q1 = 859.703 ns, Median = 862.538 ns, Q3 = 864.842 ns, Max = 870.050 ns
+IQR = 5.139 ns, LowerFence = 851.994 ns, UpperFence = 872.551 ns
+ConfidenceInterval = [858.254 ns; 867.135 ns] (CI 99.9%), Margin = 4.440 ns (0.51% of Mean)
+Skewness = 0.06, Kurtosis = 2.1, MValue = 2
+-------------------- Histogram --------------------
+[854.546 ns ; 871.809 ns) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+Fibonacci.MemoTwoResult: DefaultJob
+Runtime = Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128; GC = Concurrent Workstation
+Mean = 765.703 ns, StdErr = 0.625 ns (0.08%), N = 13, StdDev = 2.252 ns
+Min = 761.747 ns, Q1 = 764.544 ns, Median = 765.669 ns, Q3 = 767.033 ns, Max = 769.980 ns
+IQR = 2.490 ns, LowerFence = 760.809 ns, UpperFence = 770.768 ns
+ConfidenceInterval = [763.006 ns; 768.400 ns] (CI 99.9%), Margin = 2.697 ns (0.35% of Mean)
+Skewness = -0.09, Kurtosis = 2.31, MValue = 2
+-------------------- Histogram --------------------
+[760.490 ns ; 771.237 ns) | @@@@@@@@@@@@@
+---------------------------------------------------
+
+Fibonacci.LogNResult: DefaultJob
+Runtime = Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128; GC = Concurrent Workstation
+Mean = 1.939 μs, StdErr = 0.004 μs (0.21%), N = 14, StdDev = 0.015 μs
+Min = 1.918 μs, Q1 = 1.926 μs, Median = 1.942 μs, Q3 = 1.949 μs, Max = 1.970 μs
+IQR = 0.023 μs, LowerFence = 1.891 μs, UpperFence = 1.984 μs
+ConfidenceInterval = [1.922 μs; 1.957 μs] (CI 99.9%), Margin = 0.017 μs (0.90% of Mean)
+Skewness = 0.11, Kurtosis = 1.98, MValue = 2
+-------------------- Histogram --------------------
+[1.910 μs ; 1.979 μs) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.2, OS=macOS 13.0 (22A380) [Darwin 22.1.0]
+Apple M1 Pro 2.40GHz, 1 CPU, 8 logical and 8 physical cores
+  [Host]     : Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128
+  DefaultJob : Mono 6.12.0.182 (2020-02/6051b710727 Tue), X64 VectorSize=128
+
+
+|           Method |                Mean |             Error |            StdDev |   Gen0 | Allocated |
+|----------------- |--------------------:|------------------:|------------------:|-------:|----------:|
+| BruteForceResult | 33,811,474,833.3 ns | 194,206,605.11 ns | 181,660,978.91 ns |      - |         - |
+|       MemoResult |            862.7 ns |           4.44 ns |           4.15 ns | 0.1955 |         - |
+|    MemoTwoResult |            765.7 ns |           2.70 ns |           2.25 ns |      - |         - |
+|       LogNResult |          1,939.4 ns |          17.42 ns |          15.44 ns | 0.3395 |         - |
+
+// * Hints *
+Outliers
+  Fibonacci.MemoTwoResult: Default -> 2 outliers were removed (777.84 ns, 778.25 ns)
+  Fibonacci.LogNResult: Default    -> 1 outlier  was  removed (2.08 μs)
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Gen0      : GC Generation 0 collects per 1000 operations
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ns      : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:13:56 (836.66 sec), executed benchmarks: 4
+
+Global total time: 00:14:02 (842.49 sec), executed benchmarks: 4
+// * Artifacts cleanup *
