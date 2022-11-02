@@ -119,3 +119,5 @@
 /Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/obj/Release/BenchmarkTest.csproj.CopyComplete
 /Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/obj/Release/BenchmarkTest.exe
 /Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/obj/Release/BenchmarkTest.pdb
+/Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/bin/Release/Bogus.dll
+/Users/edubank/Documents/Projeto Pessoal/BenchmarkTest/BenchmarkTest/bin/Release/Bogus.xml
